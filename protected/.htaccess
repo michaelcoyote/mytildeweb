@@ -1,0 +1,7 @@
+AuthUserFile /home/michaelcoyote/public_html/protected/.htpasswd
+AuthName "a test"
+AuthType Basic
+
+<Limit GET POST>
+require valid-user
+</Limit>
