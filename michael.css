@@ -1,0 +1,47 @@
+/* vt100 land of the style vampires. */
+
+body {	color: #444;
+	background-color: #FFF
+	background-attachment: fixed;
+	font-family: Arial, Helvetica, sans-serif }
+
+h1, h2, h3, h4, h5, h6 { font-style: normal; color: #004; background-color: transparent }
+p {color: #004; background-color: transparent }
+li { color: #004; background-color: transparent }
+dt { color: #004; font-weight: bold; background-color: transparent }
+dd { color: #004; background-color: transparent }
+address { color: #004; background-color: transparent }
+
+ul { list-style-type: none }
+
+table { border-collapse: collapse;
+	color: #004;
+	background-color: #FFF;
+	empty-cells: show;
+	vertical-align: top;
+	}
+
+th, td { vertical-align: top;
+	color: #004;
+	background-color: #FFF;
+	border-style: none
+	}
+
+.box	{
+	border-color: #008;
+	border-style: ridge;
+	}
+
+.red	{color: #F00; background-color: transparent; font-weight: bold; font-style: normal }
+.orange	{color: #F80; background-color: transparent; font-weight: normal; font-style: normal }
+.green	{color: #DFD; background-color: transparent; font-weight: normal; font-style: normal }
+.blue	{color: #36A; background-color: transparent; font-weight: bold; font-style: normal }
+.black	{color: #000; background-color: transparent; font-weight: bold; font-style: normal }
+.white	{color: #FFF; background-color: transparent; font-weight: bold; font-style: normal }
+.big	{color: #F80; background-color: transparent; font-size: 48pt; font-weight: bold; font-style: normal }
+
+A:link		{ color: #55A; background-color: transparent }
+A:visited	{ color: #227; background-color: transparent }
+A:active	{ color: #F80; background-color: transparent }
+
+
